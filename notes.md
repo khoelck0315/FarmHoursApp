@@ -5,3 +5,6 @@ Steps
 3. cd {project name}
 4. expo start (Expo app needs to be installed on phone)
 
+Important notes
+===============
+- Note the typing of keys to be able to dynamically access object properties with bracket notation

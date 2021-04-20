@@ -1,0 +1,21 @@
+import jsx from "https://cdn.skypack.dev/jsx@0.9.89";
+import * as React from "https://cdn.skypack.dev/react@17.0.1";
+import * as ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.1";
+
+
+
+function App() {
+  return (
+    <table className={"bg-blue-100 text-center text-3xl py-4"}>
+       <TableHead />
+       <TableBody />
+    </table>
+  )
+}
+
+/* This is probably a bit different with React Native...
+
+ReactDOM.render(
+  <App />,
+  document.getElementById("root")
+);*/
